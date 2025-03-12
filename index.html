@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="password-card">
+        <h1>Password Generator</h1>
+        <label for="">Password Length: <input type="number" name="" id="password-length"></label>
+
+        <div class="options">
+            <label><input type="checkbox" name="" id="" value="numbers"> Numbers</label>
+            <label><input type="checkbox" name="" id="" value="uppercase"> Uppercase</label>
+            <label><input type="checkbox" name="" id="" value="lowercase"> Lowercase</label>
+            <label><input type="checkbox" name="" id="" value="symbols"> Symbols</label>
+        </div>
+        
+        <div class="btn-controls">
+            <button id="generate-btn">Generate</button>
+            <button id="reset-btn">Reset</button>
+        </div>
+
+        <button id="generated-password" class="show"></button>        
+    </div>
+    <script src="main.js"></script>
+</body>
+</html>
